@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(200, 200, 200);
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
