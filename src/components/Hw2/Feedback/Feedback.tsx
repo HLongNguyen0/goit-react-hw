@@ -1,8 +1,11 @@
+import { Header } from "../Hw2.styled";
 import { Button } from "./Feedback.styled";
 
 export default function Feedback({ options, onLeaveFeedback }: InitValues) {
   return (
     <>
+      <Header>Please leave a feedback</Header>
+
       {Object.keys(options).map((elem) => (
         <Button
           key={elem}
